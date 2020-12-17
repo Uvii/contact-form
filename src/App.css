@@ -1,0 +1,145 @@
+.container {
+  background-color: #F3F3FB;
+  min-height: 100vh;
+  font-family: sans-serif, serif;
+}
+
+.contact-container {
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  width: 340px;
+  height: 90vh;
+  background-color: #ffffff;
+  box-shadow: 5px 5px #f1f1f1;
+  border-radius: 5px;
+}
+
+.contact-card {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  overflow: scroll;
+  margin: 10%;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+.headerTitle {
+  margin-bottom: 0px;
+  font-size: 32px;
+  color: #1E2844;
+}
+
+.tagLine {
+  margin: 0px;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #9494A3;
+}
+
+.labelName {
+  display: block;
+  font-weight: 600;
+  color: #1E2844;
+  margin: 5px 0 20px;
+}
+
+input.userText, textarea.userText {
+  display: block;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #E9EAED;
+  border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder {
+  font-size: 14px;
+  color: #8C949C;
+  font-family: sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.submitBtn {
+  margin: 40px 0 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1E2844;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #1E2844;
+  cursor: pointer;
+}
+
+.profile-container {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  width: 360px;
+  height: 340px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px #f1f1f1;
+  border-radius: 5px;
+}
+
+.profile-head {
+  height: 105px;
+  background-color: #1E2844;
+  border: 1px solid #1E2844;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  top: -50px;
+  position: relative;
+}
+
+.profile-info {
+  position: relative;
+  top: -50px;
+  text-align: center;
+}
+
+.profile-info .userName {
+  margin-bottom: 5px;
+}
+
+.profile-info div {
+  margin: 5px 0px;
+}
+
+.errorCheck {
+  color: red;
+  font-size: 12px;
+  display: block;
+  margin: 0px;
+  padding: 5px 0;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+/* @keyframes  {
+  
+} */
